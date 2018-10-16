@@ -1,11 +1,26 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel {
+    display: none;
+  }
+}
+
+.carousel-item {
+  height: 75vh;
+}
+
+.carousel-item img {
+  height: 100%;
 }
 
 article {
-  width: 80%;
-  height: calc(100vh - 96px);
+  width: 70%;
+  height: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,12 +29,11 @@ article {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin: 20px auto;
+  margin: 0px auto;
+  min-width: 320px;
 }
 
 article div {
-  width: 25%;
-  height: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,7 +45,6 @@ article div {
   background-size: cover;
   background-color: #fff;
   overflow: hidden;
-  outline: 1px solid black;
 }
 
 article div h2 {
@@ -40,6 +53,7 @@ article div h2 {
   padding: 5px;
   font-size: 1.2em;
   margin: 0;
+  color: #fff;
 }
 
 article div:hover {
@@ -63,26 +77,51 @@ article div:hover {
 }
 
 article .s-width {
-  width: 25%;
-}
-
-article .m-width {
-  width: 33.3333%;
+  width: 33.33332%;
 }
 
 article .l-width {
-  width: 50%;
+  width: 66.66666665%;
 }
 
 article .s-height {
-  height: 25%;
-}
-
-article .m-height {
-  height: 33.3333%;
+  height: 33.33332%;
 }
 
 article .l-height {
-  height: 50%;
+  height: 66.66666665%;
+}
+
+@media screen and (max-width: 1200px) {
+  article .s-width {
+    width: 50%;
+  }
+  article .l-width {
+    width: 50%;
+  }
+  article .s-height {
+    height: 50%;
+  }
+  article .l-height {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  article article {
+    width: 90%;
+  }
+  article .s-width {
+    width: 100%;
+  }
+  article .l-width {
+    width: 100%;
+  }
+  article .s-height {
+    height: 50%;
+  }
+  article .l-height {
+    height: 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
