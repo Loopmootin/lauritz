@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    width: 80%;
+    height: calc(100vh - 96px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px auto;
+    div {
+        width: 25%;
+        height: 25%;
+        display: flex;
+        align-items: flex-end;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: #fff;
+        overflow: hidden;
+        outline: 1px solid black;
+        h2 {
+            text-align: right;
+            width: 100%;
+            padding: 5px;
+            font-size: 1.2em;
+            margin: 0;
+        }
+        &:hover {
+            animation: 1.5s ease enlarge;
+            cursor: pointer;
+        }
+        @keyframes enlarge {
+            6% {
+                transform: scale(1.06, 1.06);
+            }
+        }
+    }
+    .s-width {
+        width: 25%;
+    }
+
+    .m-width {
+        width: 33.3333%;
+    }
+
+    .l-width {
+        width: 50%;
+    }
+
+    .s-height {
+        height: 25%;
+    }
+
+    .m-height {
+        height: 33.3333%;
+    }
+
+    .l-height {
+        height: 50%;
+    }
+}
