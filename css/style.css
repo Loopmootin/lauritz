@@ -4,124 +4,120 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 800px) {
-  .carousel {
-    display: none;
-  }
+h3 {
+  float: left;
 }
 
-.carousel-item {
-  height: 75vh;
+.container {
+  max-width: 1200px;
 }
 
-.carousel-item img {
-  height: 100%;
-}
-
-article {
-  width: 70%;
-  height: 800px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin: 0px auto;
-  min-width: 320px;
-}
-
-article div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #fff;
+.img-fluid {
   overflow: hidden;
 }
 
-article div h2 {
-  text-align: right;
-  width: 100%;
-  padding: 5px;
-  font-size: 1.2em;
-  margin: 0;
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #fff;
+  width: 6%;
+  top: 40px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.large-carousel {
+  display: block;
+}
+
+.small-carousel {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .large-carousel {
+    display: none;
+  }
+  .small-carousel {
+    display: block;
+  }
+}
+
+.no-gutters > [class*=col-] {
+  margin: 0.5%;
+}
+
+.col-3 {
+  max-width: 24%;
+}
+
+.col-6 {
+  max-width: 49%;
+}
+
+.news-container {
+  height: 200px;
+  width: 200px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 50px;
+  margin-left: calc(100% - 250px);
+}
+
+.news-container .news-close {
+  z-index: 200;
+  position: absolute;
+  bottom: 145px;
+  margin-left: calc(100% - 50px);
+  background-color: #343a40;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.news-container .news-close p {
+  position: absolute;
+  top: 12px;
+  left: 18px;
+  font-weight: 800;
+  color: white;
+}
+
+.news-container .news-modal {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 20;
+  background-image: url("http://placekitten.com/200/200");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.news-container .news-modal p {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  font-weight: 800;
+  color: white;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+}
+
+footer p {
   color: #fff;
-}
-
-article div:hover {
-  -webkit-animation: 1.5s ease enlarge;
-          animation: 1.5s ease enlarge;
-  cursor: pointer;
-}
-
-@-webkit-keyframes enlarge {
-  6% {
-    -webkit-transform: scale(1.06, 1.06);
-            transform: scale(1.06, 1.06);
-  }
-}
-
-@keyframes enlarge {
-  6% {
-    -webkit-transform: scale(1.06, 1.06);
-            transform: scale(1.06, 1.06);
-  }
-}
-
-article .s-width {
-  width: 33.33332%;
-}
-
-article .l-width {
-  width: 66.66666665%;
-}
-
-article .s-height {
-  height: 33.33332%;
-}
-
-article .l-height {
-  height: 66.66666665%;
-}
-
-@media screen and (max-width: 1200px) {
-  article .s-width {
-    width: 50%;
-  }
-  article .l-width {
-    width: 50%;
-  }
-  article .s-height {
-    height: 50%;
-  }
-  article .l-height {
-    height: 50%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  article article {
-    width: 90%;
-  }
-  article .s-width {
-    width: 100%;
-  }
-  article .l-width {
-    width: 100%;
-  }
-  article .s-height {
-    height: 50%;
-  }
-  article .l-height {
-    height: 50%;
-  }
 }
 /*# sourceMappingURL=style.css.map */
