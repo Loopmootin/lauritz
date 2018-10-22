@@ -18,10 +18,20 @@
                     <a class="dropdown-item" href="#">Jewels</a>
                     <a class="dropdown-item" href="#">Furniture</a>
                     <a class="dropdown-item" href="#">Clothing</a>
+
                 </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link sell" href="#">SELL<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link login" href="#">Login<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link newuser" href="#">New user<span class="sr-only"></span></a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

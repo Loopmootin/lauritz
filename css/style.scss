@@ -39,6 +39,7 @@ h3 {
     display: none;
 }
 
+
 @media only screen and (max-width: 600px) {
     .large-carousel {
         display: none;
@@ -116,4 +117,67 @@ footer {
     p {
         color: #fff;
     }
+}
+
+
+.bg-dark {
+  background-color: #00A8A8!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #00A8A8;
+  color: #fff;
+  border: none;
+}
+.navbar-dark .navbar-nav .nav-link:after {
+  content: '';
+  display: none;
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  bottom: 0px;
+}
+.navbar-dark .navbar-nav .nav-link:after:hover {
+display: block;
+}
+
+.sell {
+  color: white!important;
+background-color: #0cc30c;
+position: absolute;
+padding: 17.4px 30px;
+top: 0px;
+right: 350px;
+margin: 0px 20px;
+width: 90px;
+transform: skewX(-15deg);
+text-align: center;
+}
+.login {
+  color: white!important;
+background-color: #0cc30c;
+position: absolute;
+padding: 17.4px 30px;
+background-color: royalblue;
+right: 440px;
+top: 0px;
+margin: 0px 20px;
+width: 90px;
+transform: skewX(-15deg);
+text-align: center;
+}
+.newuser {
+  color: white!important;
+background-color: darkred;
+position: absolute;
+padding: 17.4px 30px;
+top: 0px;
+right: 530px;
+margin: 0px 20px;
+width: 90px;
+transform: skewX(-15deg);
+text-align: center;
 }
