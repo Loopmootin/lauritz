@@ -132,52 +132,20 @@ footer {
   color: #fff;
   border: none;
 }
-.navbar-dark .navbar-nav .nav-link:after {
-  content: '';
-  display: none;
-  width: 70px;
-  height: 2px;
-  position: absolute;
-  bottom: 0px;
-}
-.navbar-dark .navbar-nav .nav-link:after:hover {
-display: block;
+
+.rightside-nav {
+  display: inline-flex;
+  a {
+    color: #fff;
+  }
 }
 
-.sell {
-  color: white!important;
-background-color: #0cc30c;
-position: absolute;
-padding: 17.4px 30px;
-top: 0px;
-right: 350px;
-margin: 0px 20px;
-width: 90px;
-transform: skewX(-15deg);
-text-align: center;
-}
-.login {
-  color: white!important;
-background-color: #0cc30c;
-position: absolute;
-padding: 17.4px 30px;
-background-color: royalblue;
-right: 440px;
-top: 0px;
-margin: 0px 20px;
-width: 90px;
-transform: skewX(-15deg);
-text-align: center;
-}
-.newuser {
-  color: white!important;
-background-color: darkred;
-position: absolute;
-padding: 17.4px 30px;
-top: 0px;
-right: 530px;
-margin: 0px 20px;
-width: 90px;
-transform: skewX(-15deg);
-text-align: center;
+
+/* =======================================
+  TOOLS
+========================================= */
+.tools {
+  width: 100%;
+height: 300px;
+background-color: rgb(232, 232, 232);
 }

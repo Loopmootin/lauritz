@@ -6,10 +6,13 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item dropdown">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Actions<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Last Chance<span class="sr-only"></span></a>
+              </li>
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Categories
                 </a>
@@ -25,16 +28,16 @@
                 <a class="nav-link" href="#">Contact<span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link sell" href="#">SELL<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link login" href="#">Login<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link newuser" href="#">New user<span class="sr-only"></span></a>
+                <a class="nav-link" href="#">| Support<span class="sr-only"></span></a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
+            <div class="rightside-nav">
+            <a class="nav-link" href="#"> Login<span class="sr-only"></span></a>
+            <a class="nav-link" href="#"> New user<span class="sr-only"></span></a>
+            <a class="nav-link" href="#"> My page<span class="sr-only"></span></a>
+            <a class="nav-link" href="#"> Sell<span class="sr-only"></span></a>
+          </div>
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
         </form>

@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="large-carousel">
+  <!--  <div class="large-carousel">
         <h3>Jewels</h3>
         <div class="container text-center my-3">
             <div id="recipeCarousel2" class="carousel slide w-100">
@@ -126,8 +126,10 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
+
+    <?php include('tools.php'); ?>
 
     <div class="large-carousel">
         <h3>Furniture</h3>
