@@ -39,6 +39,12 @@ h3 {
     display: none;
 }
 
+.footer-copyright {
+  p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
     .large-carousel {
