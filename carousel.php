@@ -130,7 +130,6 @@
 
     <?php include("hr.php"); ?>
     <?php include('tools.php'); ?>
-    <?php include("hr.php"); ?>
 
 
 

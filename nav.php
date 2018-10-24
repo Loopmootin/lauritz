@@ -7,26 +7,24 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-                <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAuctions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Auctions
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownAuctions">
-                        <a class="dropdown-item" href="#">Auctions</a>
-                        <a class="dropdown-item" href="#">Last Chance</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
-                        <a class="dropdown-item" href="#">Electronics</a>
-                        <a class="dropdown-item" href="#">Jewels</a>
-                        <a class="dropdown-item" href="#">Furniture</a>
-                        <a class="dropdown-item" href="#">Clothing</a>
-                    </div>
-                </li>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
+                    <a class="dropdown-item" href="#">Electronics</a>
+                    <a class="dropdown-item" href="#">Jewels</a>
+                    <a class="dropdown-item" href="#">Furniture</a>
+                    <a class="dropdown-item" href="#">Clothing</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAuctions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Auctions
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownAuctions">
+                    <a class="dropdown-item" href="#">Auctions</a>
+                    <a class="dropdown-item" href="#">Last Chance</a>
+                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact<span class="sr-only"></span></a>
@@ -39,7 +37,6 @@
         <form class="form-inline my-2 my-lg-0">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                    <li class="nav-item">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUser" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Users
                     </a>
@@ -49,11 +46,10 @@
                         <a class="dropdown-item" href="#">My page</a>
                         <a class="dropdown-item" href="#">Sell</a>
                     </div>
-                    </li>
                 </li>
             </ul>
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-light my-2 mr-sm-2" type="submit">Search</button>
             <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Advanced Search</button>
         </form>
     </div>
