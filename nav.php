@@ -33,13 +33,16 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <div class="rightside-nav">
-            <a class="nav-link" href="#"> Login<span class="sr-only"></span></a>
-            <a class="nav-link" href="#"> New user<span class="sr-only"></span></a>
-            <a class="nav-link" href="#"> My page<span class="sr-only"></span></a>
-            <a class="nav-link" href="#"> Sell<span class="sr-only"></span></a>
-          </div>
+                <a class="nav-link" href="#"> Login<span class="sr-only"></span></a>
+                <a class="nav-link" href="#"> New user<span class="sr-only"></span></a>
+                <a class="nav-link" href="#"> My page<span class="sr-only"></span></a>
+                <a class="nav-link" href="#"> Sell<span class="sr-only"></span></a>
+            </div>
+        </form>
+        <div class="full-width-div">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-        </form>
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Advanced Search</button>
+        </div>
     </div>
 </nav>
