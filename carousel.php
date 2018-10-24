@@ -70,16 +70,16 @@
             <div id="recipeCarousel4" class="carousel slide w-100">
                 <div class="carousel-inner w-100" role="listbox">
                     <div class="carousel-item row no-gutters active">
-                        <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/400x400/222/fff?text=1"></div>
-                        <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/400x400/444?text=2"></div>
-                        <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/400x400/888?text=3"></div>
-                        <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/400x400/111/fff?text=4"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture1.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture2.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture7.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture4.jpg"></div>
                     </div>
                     <div class="carousel-item row no-gutters">
-                        <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/400x400?text=5"></div>
-                        <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/400x400/555?text=6"></div>
-                        <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/400x400/333/fff?text=7"></div>
-                        <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/400x400/bbb?text=8"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture5.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture6.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture3.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture8.jpg"></div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#recipeCarousel4" role="button" data-slide="prev">
@@ -100,20 +100,20 @@
             <div id="recipeCarousel5" class="carousel slide w-100">
                 <div class="carousel-inner w-100" role="listbox">
                    <div class="carousel-item row no-gutters active">
-                        <div class="col-6 float-left"><img class="img-fluid" src="http://placehold.it/400x400/222/fff?text=1"></div>
-                        <div class="col-6 float-left"><img class="img-fluid" src="http://placehold.it/400x400/444?text=2"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture1.jpg"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture2.jpg"></div>
                     </div>
                     <div class="carousel-item row no-gutters">
-                        <div class="col-6 float-left"><img class="img-fluid" src="http://placehold.it/400x400?text=3"></div>
-                        <div class="col-6 float-left"><img class="img-fluid" src="http://placehold.it/400x400/555?text=4"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture3.jpg"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture4.jpg"></div>
                     </div>
                     <div class="carousel-item row no-gutters">
-                        <div class="col-6 float-left"><img class="img-fluid" src="http://placehold.it/400x400?text=5"></div>
-                        <div class="col-6 float-left"><img class="img-fluid" src="http://placehold.it/400x400/555?text=6"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture5.jpg"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture6.jpg"></div>
                     </div>
                     <div class="carousel-item row no-gutters">
-                        <div class="col-6 float-left"><img class="img-fluid" src="http://placehold.it/400x400/333/fff?text=7"></div>
-                        <div class="col-6 float-left"><img class="img-fluid" src="http://placehold.it/400x400/bbb?text=8"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture7.jpg"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture8.jpg"></div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#recipeCarousel5" role="button" data-slide="prev">
