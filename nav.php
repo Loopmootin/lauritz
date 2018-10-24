@@ -34,10 +34,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Support<span class="sr-only"></span></a>
             </li>
+            
         </ul>
         <form class="form-inline my-2 my-lg-0">
-            <div class="rightside-nav">
-                <li class="nav-item">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <li class="nav-item">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUser" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Users
                     </a>
@@ -47,8 +49,9 @@
                         <a class="dropdown-item" href="#">My page</a>
                         <a class="dropdown-item" href="#">Sell</a>
                     </div>
+                    </li>
                 </li>
-            </div>
+            </ul>
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
             <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Advanced Search</button>
