@@ -64,9 +64,6 @@
         </div>
     </div>
 
-    <?php include("hr.php"); ?>
-    <?php include('tools.php'); ?>
-    <?php include("hr.php"); ?>
     <div class="large-carousel">
         <h3>Furniture</h3>
         <div class="container text-center my-3">
@@ -130,6 +127,11 @@
             </div>
         </div>
     </div>
+
+    <?php include("hr.php"); ?>
+    <?php include('tools.php'); ?>
+    <?php include("hr.php"); ?>
+
 
 
 </div>
