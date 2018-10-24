@@ -152,7 +152,8 @@ footer {
 
 .footer-box-one {
   min-width: 330px;
-  margin: 10px; }
+  margin: 10px;
+  margin-left: 30px; }
   .footer-box-one ul {
     list-style-type: none; }
   .footer-box-one a {
@@ -160,7 +161,8 @@ footer {
 
 .Footer-box-two {
   min-width: 330px;
-  margin: 10px; }
+  margin: 10px;
+  margin-left: 30px; }
   .Footer-box-two ul {
     list-style-type: none; }
   .Footer-box-two a {
@@ -168,7 +170,8 @@ footer {
 
 .Footer-box-three {
   min-width: 330px;
-  margin: 10px; }
+  margin: 10px;
+  margin-left: 30px; }
   .Footer-box-three ul {
     list-style-type: none; }
   .Footer-box-three a {
