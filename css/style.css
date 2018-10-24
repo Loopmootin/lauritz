@@ -125,51 +125,17 @@ footer {
 .tools {
   width: 100%;
   height: 300px;
-  background-color: #e8e8e8; }
+  background-color: #e8e8e8;
+}
 
 .hr-big-red {
-  border-top: 2px solid darkred; }
+  border-top: 2px solid darkred;
+}
 
 .img-fluid {
   border-radius: .25rem;
   -webkit-box-shadow: 0px 2px 4px 1px #d4b3b3;
-  box-shadow: 0px 2px 4px 1px #d4b3b3;
-  margin: 20px; }
-
-footer {
-  background-color: #00A8A8 !important; }
-
-.footerflex {
+          box-shadow: 0px 2px 4px 1px #d4b3b3;
   margin: 20px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  .footerflex p {
-    font-size: 22px;
-    border-bottom: 2px solid darkred; }
-
-.footer-box-one {
-  min-width: 330px;
-  margin: 10px; }
-  .footer-box-one ul {
-    list-style-type: none; }
-  .footer-box-one a {
-    color: white; }
-
-.Footer-box-two {
-  min-width: 330px;
-  margin: 10px; }
-  .Footer-box-two ul {
-    list-style-type: none; }
-  .Footer-box-two a {
-    color: white; }
-
-.Footer-box-three {
-  min-width: 330px;
-  margin: 10px; }
-  .Footer-box-three ul {
-    list-style-type: none; }
-  .Footer-box-three a {
-    color: white; }
+}
+/*# sourceMappingURL=style.css.map */
