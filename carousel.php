@@ -70,9 +70,9 @@
             <div id="recipeCarousel4" class="carousel slide w-100">
                 <div class="carousel-inner w-100" role="listbox">
                     <div class="carousel-item row no-gutters active">
-                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture1.jpg"></div>
-                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture2.jpg"></div>
-                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture7.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture5.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture6.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="images/furniture3.jpg"></div>
                         <div class="col-3 float-left"><img class="img-fluid" src="images/furniture4.jpg"></div>
                     </div>
                     <div class="carousel-item row no-gutters">
@@ -100,8 +100,8 @@
             <div id="recipeCarousel5" class="carousel slide w-100">
                 <div class="carousel-inner w-100" role="listbox">
                    <div class="carousel-item row no-gutters active">
-                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture1.jpg"></div>
-                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture2.jpg"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture5.jpg"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture6.jpg"></div>
                     </div>
                     <div class="carousel-item row no-gutters">
                         <div class="col-6 float-left"><img class="img-fluid" src="images/furniture3.jpg"></div>
@@ -112,7 +112,7 @@
                         <div class="col-6 float-left"><img class="img-fluid" src="images/furniture6.jpg"></div>
                     </div>
                     <div class="carousel-item row no-gutters">
-                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture7.jpg"></div>
+                        <div class="col-6 float-left"><img class="img-fluid" src="images/furniture3.jpg"></div>
                         <div class="col-6 float-left"><img class="img-fluid" src="images/furniture8.jpg"></div>
                     </div>
                 </div>

@@ -12,9 +12,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
                     <a class="dropdown-item" href="#">Electronics</a>
-                    <a class="dropdown-item" href="#">Jewels</a>
                     <a class="dropdown-item" href="#">Furniture</a>
-                    <a class="dropdown-item" href="#">Clothing</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -24,6 +22,10 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownAuctions">
                     <a class="dropdown-item" href="#">Auctions</a>
                     <a class="dropdown-item" href="#">Last Chance</a>
+                    <a class="dropdown-item" href="#">deLuxe</a>
+                    <a class="dropdown-item" href="#">Selling</a>
+                    <a class="dropdown-item" href="#">Buying</a>
+                    <a class="dropdown-item" href="#">Delivery</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -44,7 +46,6 @@
                         <a class="dropdown-item" href="#">Login</a>
                         <a class="dropdown-item" href="#">New user</a>
                         <a class="dropdown-item" href="#">My page</a>
-                        <a class="dropdown-item" href="#">Sell</a>
                     </div>
                 </li>
             </ul>
